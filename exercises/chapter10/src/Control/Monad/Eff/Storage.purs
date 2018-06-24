@@ -1,8 +1,8 @@
-module Control.Monad.Eff.Storage where
+module Effect.Storage where
 
 import Prelude
 
-import Control.Monad.Eff (kind Effect, Eff)
+import Effect (kind Effect, Effect)
 import Data.Foreign (Foreign)
 
 foreign import data STORAGE :: Effect

@@ -2,3 +2,4 @@
 .psci_modules
 output
 bower_components
+.psc-package

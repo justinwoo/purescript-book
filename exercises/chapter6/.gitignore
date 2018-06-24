@@ -3,3 +3,4 @@
 !/.gitignore
 bower_components
 output
+.psc-package

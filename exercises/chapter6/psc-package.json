@@ -1,0 +1,14 @@
+{
+  "name": "chapter2",
+  "set": "psc-0.12.0-20180625",
+  "source": "https://github.com/purescript/package-sets.git",
+  "depends": [
+    "console",
+    "either",
+    "functions",
+    "math",
+    "prelude",
+    "strings",
+    "tuples"
+  ]
+}

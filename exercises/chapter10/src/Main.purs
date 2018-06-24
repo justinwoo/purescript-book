@@ -2,10 +2,10 @@ module Main where
 
 import Prelude
 
-import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Alert (ALERT, alert)
-import Control.Monad.Eff.Console (CONSOLE, log)
-import Control.Monad.Eff.Storage (STORAGE, setItem, getItem)
+import Effect (Effect)
+import Effect.Alert (ALERT, alert)
+import Effect.Console (log)
+import Effect.Storage (STORAGE, setItem, getItem)
 import Control.Monad.Except (runExcept)
 import DOM (DOM)
 import DOM.HTML (window)
